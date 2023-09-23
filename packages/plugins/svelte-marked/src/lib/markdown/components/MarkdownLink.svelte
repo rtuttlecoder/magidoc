@@ -12,7 +12,7 @@
   href={isRelative(token.href)
     ? joinUrlPaths(options.baseUrl, token.href)
     : token.href}
-  title={token.title}
+  title={token.title} target="_blank"
 >
   <slot />
 </a>
